@@ -1,0 +1,52 @@
+:root {
+    --color-gold-dark: #c7a663;
+    --color-gold-light: #ffbc31;
+    --default-font-light: normal 100 1.2em "Source Sans Pro";
+    --padding-left-right: 110px;
+}
+
+.icon-arrow-right {
+    content: url('../icons/arrow-right.png');
+    width: 20px;
+    padding-left: 5px;
+}
+
+.overview-main>ul>li>h3:hover .icon-arrow-right {
+    content: url('../icons/arrow-right-dark-gold.png');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 200 1em "Source Sans Pro";
+}
+
+section {
+    display: flex;
+    flex-direction: columnn;
+    padding: 10px 80px;
+}
+
+@media(max-width: 800px) {
+    section {
+        padding: 0px 10px;
+    }
+}
+
+ul,
+nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    color: var(--color-gold-dark)
+}

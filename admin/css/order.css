@@ -1,0 +1,18 @@
+.btn-back {
+    margin-left: 0;
+}
+
+
+
+@media(max-width: 800px) {
+
+    .order_section {
+        width: 98vw;
+        overflow-x: auto;
+    }
+    .default_form{
+        margin-left: 0;
+    }
+
+    
+}
